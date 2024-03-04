@@ -1,0 +1,86 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.logo img {
+    width: 2rem
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    padding-right: 6rem;
+}
+
+#accountIcon img {
+    width: 2em;
+}
+
+div.signup {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login,
+.profile-info,
+.post,
+.signup,
+.post-item {
+    background-color: lightcoral;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.profile-info img {
+    width: 14rem;
+}
+
+.profile-info span {
+    font-size: 1.5rem;
+    padding-bottom: 0.7rem;
+}
+
+input {
+    border-radius: 0.5rem;
+    border-color: lightgrey;
+    margin-bottom: 0.5rem;
+}
+
+.post-item .post-image {
+    width: 40rem;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-header img {
+    width: 3rem;
+}
+
+.post-item span {
+    width: 40rem;
+}
